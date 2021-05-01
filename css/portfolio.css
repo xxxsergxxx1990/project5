@@ -1,0 +1,85 @@
+.partfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.partfolio-list-but {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+.button-part:not(:last-child) {
+  margin-right: 8px;
+}
+
+.one-button:hover,
+.one-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.one-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  
+  border: transparent;
+  padding: 4px 22px;
+ 
+  border-radius: 4px;
+  background: #F5F4FA;
+
+}
+
+.title-image {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+}
+
+.text-acent {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-acent-color);
+  padding-left: auto;
+}
+
+.partfolio-list-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.partfolio-cont {
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 3 * 30px) / 3);
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+}
+.cont-part {
+  
+  padding: 30px 32px;
+  border: 1px solid #EEEEEE;
+  background-color: #ffffff;
+  border-top: none;
+}
+
+.text-acent.adress.to {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-acent-color);
+  padding: 0px;
+}
