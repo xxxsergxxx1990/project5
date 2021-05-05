@@ -21,7 +21,7 @@ html {
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
-  font-family: "Roboto";
+  font-family: "Roboto","sun-serif";
 }
 .visually-hidden {
   position: absolute !important;
