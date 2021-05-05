@@ -27,6 +27,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-image: url(../images/back.jpg);
+  background-image:linear-gradient(rgba(47, 48, 58, 0.4));
+
 }
 .section-hero-but {
   background-color: #2196f3;
