@@ -107,7 +107,7 @@ a {
 .nav-icons-svg {
   width: 16px;
   height: 12px;
-  stroke: #757575;
+  fill: currentColor;
  
   margin-right: 10px;
 }
@@ -181,7 +181,9 @@ color: #2196f3;
 }
 
 .text-acent-mail {
-  display: block;
+  display: flex;
+  align-items: center;
+
 }
 
 /*FOOTER*/

@@ -68,8 +68,7 @@
   margin-top: 30px;
   flex-basis: calc((100% - 3 * 30px) / 3);
   background: #FFFFFF;
-  border: 1px solid #EEEEEE;
-  box-sizing: border-box;
+ 
 }
 .partfolio-cont:hover,
 .partfolio-cont:focus{

@@ -208,6 +208,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #afb1b8;;
   
 }
 .social-icons-link:hover,
@@ -221,7 +222,7 @@ img {
 .social-icons-svg {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: currentColor;
   
 }
 
