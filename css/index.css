@@ -27,7 +27,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-image: url(../images/back.jpg);
-  background-image:linear-gradient(rgba(47, 48, 58, 0.4));
+  background-image:linear-gradient(
+    rgba(47, 48, 58, 0.4)(--start-color),
+    rgba(47, 48, 58, 0.4)(--end-color)
+  );
 
 }
 .section-hero-but {
@@ -119,10 +122,10 @@ img {
   background: rgba(47, 48, 58, 0.8);
   padding-top: 27px;
   padding-bottom: 27px;
-  right: 30px;
+  bottom: 0;
   width: 100%;
-  top: 197px;
-  
+  left: 0;
+  margin: 0;
 }
 
 .occupation-image {
@@ -158,6 +161,9 @@ img {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  align-items: center;
+    justify-content: center;
+    display: flex;
 }
 .text-acent-mail {
   color: var(--text-acent-color);
@@ -203,6 +209,9 @@ img {
 
   width: 20px;
 }
+.social-icons-item:not(:last-child){
+  margin-right: 10px;
+}
 .social-icons-link {
   width: 44px;
   height: 44px;
@@ -222,7 +231,7 @@ img {
 
 }
 .social-icons-svg {
-  width: 20px;
+  
   height: 20px;
   fill: currentColor;
   
@@ -281,6 +290,7 @@ img {
 
 .clients-icons-link:hover .clients-icons-svg,
 .clients-icons-link:focus .clients-icons-svg {
+  border: #2196f3;
   fill: #2196f3;
   transition-duration:250ms;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
