@@ -32,7 +32,6 @@
           <ul class="page-nav-link-ul">
             <li class="item-nav">
               <a href="./index.html" class="page-nav-link current">Студия</a>
-          
             </li>
             <li class="item-nav">
               <a href="./portfolio.html" class="page-nav-link">Портфолио</a>
@@ -46,7 +45,10 @@
           <li class="link-right">
             <a href="mailto" class="text-acent-mail">
               <svg class="nav-icons-svg" width="16" height="12">
-                <use href="./images/icon/sprite.svg#icon-mail" class="nav-icons-svg-mail"></use>
+                <use
+                  href="./images/icon/sprite.svg#icon-mail"
+                  class="nav-icons-svg-mail"
+                ></use>
               </svg>
               info@devstudio.com</a
             >
@@ -145,30 +147,15 @@
 
           <ul class="occupation-image">
             <li class="list-image">
-              <img
-                src="images/img.png"
-                width="370"
-                alt="photo"
-                
-              />
+              <img src="images/img.png" width="370" alt="photo" />
               <p class="image-tittle">Десктопные приложения</p>
             </li>
             <li class="list-image">
-              <img
-                src="images/box2.png"
-                width="370"
-                alt="photo"
-                
-              />
+              <img src="images/box2.png" width="370" alt="photo" />
               <p class="image-tittle">Мобильные приложения</p>
             </li>
             <li class="list-image">
-              <img
-                src="images/box3.png"
-                width="370"
-                alt="photo"
-                
-              />
+              <img src="images/box3.png" width="370" alt="photo" />
               <p class="image-tittle">Дизайнерские решения</p>
             </li>
           </ul>
@@ -364,57 +351,56 @@
         </div>
       </section>
       <!--clients-->
-      
+
       <section class="clients">
         <div class="container">
-        <h2 class="clients-tittle">Постоянные клиенты</h2>
-        <ul class="list-clients">
-          <li class="clients-icons-item">
-            <a href="" class="clients-icons-link">
-              <svg class="clients-icons-svg" width= "44" height="49">
-                <use href="./images/icon/sprite.svg#icon-logo-one" ></use>
-              </svg>
-            </a>
-          </li>
-          <li class="clients-icons-item">
-            <a href="" class="clients-icons-link">
-              <svg class="clients-icons-svg" width="40"  height="52">
-                <use href="./images/icon/sprite.svg#icon-logo-two" ></use>
-              </svg>
-            </a>
-          </li>
-          <li class="clients-icons-item">
-            <a href="" class="clients-icons-link">
-              <svg class="clients-icons-svg" width="41" height="42">
-                <use href="./images/icon/sprite.svg#icon-logo-three" ></use>
-              </svg>
-            </a>
-          </li>
-          <li class="clients-icons-item">
-            <a href="" class="clients-icons-link">
-              <svg class="clients-icons-svg" width="79" height="42">
-                <use href="./images/icon/sprite.svg#icon-logo-four" ></use>
-              </svg>
-            </a>
-          </li>
-          <li class="clients-icons-item">
-            <a href="" class="clients-icons-link">
-              <svg class="clients-icons-svg" width="59"  height="47">
-                <use href="./images/icon/sprite.svg#icon-logo-five" ></use>
-              </svg>
-            </a>
-          </li>
-          <li class="clients-icons-item">
-            <a href="" class="clients-icons-link">
-              <svg  class="clients-icons-svg" width="88" height="45">
-                <use href="./images/icon/sprite.svg#icon-logo-six"  ></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-     </div>
+          <h2 class="clients-tittle">Постоянные клиенты</h2>
+          <ul class="list-clients">
+            <li class="clients-icons-item">
+              <a href="" class="clients-icons-link">
+                <svg class="clients-icons-svg" width="44" height="49">
+                  <use href="./images/icon/sprite.svg#icon-logo-one"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-icons-item">
+              <a href="" class="clients-icons-link">
+                <svg class="clients-icons-svg" width="40" height="52">
+                  <use href="./images/icon/sprite.svg#icon-logo-two"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-icons-item">
+              <a href="" class="clients-icons-link">
+                <svg class="clients-icons-svg" width="41" height="42">
+                  <use href="./images/icon/sprite.svg#icon-logo-three"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-icons-item">
+              <a href="" class="clients-icons-link">
+                <svg class="clients-icons-svg" width="79" height="42">
+                  <use href="./images/icon/sprite.svg#icon-logo-four"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-icons-item">
+              <a href="" class="clients-icons-link">
+                <svg class="clients-icons-svg" width="59" height="47">
+                  <use href="./images/icon/sprite.svg#icon-logo-five"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="clients-icons-item">
+              <a href="" class="clients-icons-link">
+                <svg class="clients-icons-svg" width="88" height="45">
+                  <use href="./images/icon/sprite.svg#icon-logo-six"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
-      
     </main>
 
     <footer class="page-footer">
@@ -471,11 +457,57 @@
             </li>
           </ul>
         </div>
+
+        <form class="telegram-form">
+          <p class="telegram-tittle">Подпишитесь на рассылку</p>
+          <input
+            name="user-message"
+            type="text"
+            class="telegram-text"
+            placeholder="E-mail*"
+            required
+          />
+
+          <button type="submit" class="telegram-button">
+            Подписаться
+            <svg class="telegram-svg" width="24" height="24">
+              <use href="./images/icon/sprite.svg#icon-icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-close-btn" data-modal-close>X</button>
+        <button class="modal-close-btn" data-modal-close>
+          <svg width="30" height="30">
+            <use  href="./images/icon/sprite.svg#icon-icon-close"></use>
+          </svg>
+        </button>
+        <h2 class="modal-tittle">Оставьте свои данные, мы вам перезвоним</h2>
+        <form class="modal-form">
+<div class="block-form">
+          <p class="text-form">Имя</p>
+          <input name="user-name" type="text" class="contact-modal-form" />
+     </div>  
+     <div class="block-form"> 
+          <p class="text-form">Телефон</p>
+          <input name="user-tel" type="tel" class="contact-modal-form" />
+        </div> 
+        <div class="block-form">
+          <p class="text-form">Почта</p>
+          <input name="user-email" type="text" class="contact-modal-form" />
+         </div>  
+         <div class="block-form">
+           <p class="text-form">Комментарий</p>
+          <textarea
+            name=" user-text"
+            
+            placeholder="Введите текст"
+          ></textarea>
+          </div>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>

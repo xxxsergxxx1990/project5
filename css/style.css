@@ -5,11 +5,7 @@
   --primary-white-color: #ffffff;
 }
 
-/*var(--primary-text-color);
-var(--text-acent-color);
-var(--text-hover-color);
-var(--primary-white-color);
-*/
+
 html {
   box-sizing: border-box;
 }
@@ -94,7 +90,7 @@ a {
 }
 
 .nav-link {
-  /* align-items: flex-end;*/
+  
   display: flex;
   margin-left: auto;
   flex-wrap: wrap;
@@ -105,8 +101,7 @@ a {
   margin-right: 50px;
 }
 .nav-icons-svg {
-  /*width: 16px;
-  height: 12px;*/
+
   fill: currentColor;
  
   margin-right: 10px;
@@ -254,6 +249,10 @@ color: #2196f3;
 
 .footer-tittle {
   color: #ffffff;
+  font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
 }
 .footer-icons-svg {
   width: 20px;
@@ -262,4 +261,87 @@ color: #2196f3;
 }
 .icon-content {
   margin-left: 70px;
+}
+.telegram-form{
+  margin-left: 93px;
+}
+
+.telegram-tittle{
+  color: #ffffff;
+  font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+margin-bottom: 20px;
+}
+
+.telegram-svg {
+position:absolute;
+  fill: #ffffff;
+ margin-left: 4px;
+ 
+ 
+ 
+}
+.telegram-button{
+  background-color: #2196f3;
+  color: var(--primary-white-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.06em;
+  padding-top: 10px;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  margin-left: 12px;
+  margin-right: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+ position: relative;
+  width: 200px;
+  height: 50px;
+  
+}
+.telegram-text{
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+font-size: 16px;
+line-height: 1.25;
+color: rgba(255, 255, 255, 0.6);
+width: 358px;
+height: 50px;
+}
+.modal-tittle{
+  font-weight: bold;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.block-form{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.text-form{
+
+font-size: 12px;
+line-height: 1.16;
+letter-spacing: 0.01em;
+color: #757575;
+padding: 0;
+margin: 0;
+}
+.contact-modal-form{
+  border: 1px solid rgba(33, 33, 33, 0.2);
+box-sizing: border-box;
+border-radius: 4px;
+width: 100%;
+
+
 }
