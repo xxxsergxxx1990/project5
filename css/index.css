@@ -164,6 +164,19 @@ img {
     justify-content: center;
     display: flex;
 }
+.text-acent-com {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-acent-color);
+  align-items: center;
+    justify-content: center;
+    display: flex;
+
+ 
+}
 .text-acent-mail {
   color: var(--text-acent-color);
   font-weight: 500;
@@ -206,7 +219,7 @@ img {
 .social-icons {
   display: flex;
 
-  width: 20px;
+  
 }
 .social-icons-item:not(:last-child){
   margin-right: 10px;
@@ -271,7 +284,7 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
   border: 1px solid #afb1b8;
-
+  
   height: 90px;
   
 }
@@ -287,6 +300,10 @@ img {
   margin-right: 30px;
 }
 
+.clients-icons-link:hover,
+.clients-icons-link:focus{
+  border-color: #2196f3;
+}
 .clients-icons-link:hover .clients-icons-svg,
 .clients-icons-link:focus .clients-icons-svg {
   

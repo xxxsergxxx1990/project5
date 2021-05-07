@@ -70,17 +70,26 @@
   background: #FFFFFF;
  
 }
-.partfolio-cont:hover,
+/*.partfolio-cont:hover,
 .partfolio-cont:focus{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   transition-duration:250ms;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-}
+}*/
 .block-image{
   position:relative;
   overflow: hidden;
  
 }
+
+.block-image-link:hover .block-text {
+  box-shadow:0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  opacity:1;
+  transform: translateY(-100%)
+ 
+} 
+
+ 
 
 .block-text{
   position:absolute;
@@ -98,10 +107,7 @@
  transition: 250ms cubic-bezier(0.4,0,0.2,1);
 }
 
-.block-image:hover .block-text {
-  opacity:1;
-  transform: translateY(-100%)
-} 
+
  
 
   
