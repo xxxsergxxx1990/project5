@@ -113,12 +113,16 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
 }
 
 
 
 
-
+.page-nav-link{
+  transition-duration:250ms;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .page-nav-link:hover,
 .page-nav-link:focus {
@@ -163,6 +167,10 @@ color: #2196f3;
 }
 .link-right:not(:last-child) {
   margin-right: 50px;
+}
+.text-acent-mail{
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .text-acent-mail:focus,
 .text-acent-mail:hover
@@ -232,6 +240,8 @@ color: #2196f3;
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icons-link:hover,
 .footer-icons-link:focus {

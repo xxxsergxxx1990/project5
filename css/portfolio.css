@@ -15,7 +15,10 @@
 .button-part:not(:last-child) {
   margin-right: 8px;
 }
-
+.one-button{
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .one-button:hover,
 .one-button:focus {
   color: #ffffff;
@@ -45,6 +48,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .text-acent {
@@ -70,29 +74,35 @@
   background: #FFFFFF;
  
 }
-/*.partfolio-cont:hover,
-.partfolio-cont:focus{
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition-duration:250ms;
-  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
-}*/
+
 .block-image{
   position:relative;
   overflow: hidden;
  
 }
-
-.block-image-link:hover .block-text {
+.block-image-link{
+  display: block;
+}
+.block-image-link{
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.block-image-link:hover .block-text ,
+.block-image-link:focus .block-text
+{
  
   opacity:1;
   transform: translateY(-100%)
  
 } 
+.block-image-link{
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .block-image-link:focus,
 .block-image-link:hover{
   display: block;
-  border: 1px solid #EEEEEE;
-  box-sizing: border-box;
+ 
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
  
