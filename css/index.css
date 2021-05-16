@@ -234,7 +234,7 @@ height: 70px;
   color: #afb1b8;
 }
 .social-icons-link {
-  transition-property: background-color;
+  transition-property: background-color,color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -289,6 +289,7 @@ height: 70px;
   fill: #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property:fill;
 }
 .clients-icons-svg:not(:last-child) {
   margin-right: 30px;
@@ -296,6 +297,7 @@ height: 70px;
 .clients-icons-link {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property:border-color;
 }
 .clients-icons-link:hover,
 .clients-icons-link:focus {
