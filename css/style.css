@@ -122,6 +122,7 @@ a {
 .page-nav-link{
   transition-duration:250ms;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property:color;
 }
 
 .page-nav-link:hover,
@@ -133,6 +134,7 @@ a {
   color: var(--text-hover-color);
   transition-duration:250ms;
   transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property:color;
  
 }
 .page-nav-link-ul .current{
@@ -170,6 +172,7 @@ color: #2196f3;
 .text-acent-mail{
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property:color;
 }
 .text-acent-mail:focus,
 .text-acent-mail:hover
@@ -241,6 +244,7 @@ color: #2196f3;
   background: rgba(255, 255, 255, 0.1);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property:background-color,color;
 }
 .footer-icons-link:hover,
 .footer-icons-link:focus {
